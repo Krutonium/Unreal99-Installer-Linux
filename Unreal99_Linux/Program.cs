@@ -321,7 +321,10 @@ class Program
 
         if (remove)
         {
-            Directory.Delete(files, true);
+            if (files != null && Directory.Exists(files))
+            {
+                Directory.Delete(files, true);
+            }
         }
         else
         {
