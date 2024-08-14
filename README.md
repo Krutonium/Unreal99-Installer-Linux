@@ -24,7 +24,7 @@ It also installs a variety of quality-of-life improvements, including
 
 ## Installation
 
-1. Download the installer from the [releases page](https://github.com/Krutonium/Unreal99-Installer-Linux/releases)
+1. Download the installer from the [releases page](https://github.com/Krutonium/Unreal99-Installer-Linux/releases) | Alternatively, `git clone` the source and use `dotnet run`.
 2. Run it with `./Unreal99_Linux` after extracting it
 3. Follow the instructions - Namely, provide the following
 4. - The path to your Unreal 99 CD (Or extracted GOG/Steam files)
